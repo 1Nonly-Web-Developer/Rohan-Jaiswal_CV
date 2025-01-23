@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Body Styling */
@@ -13,11 +15,11 @@ body {
 }
 
 p{
-    font-family: "josefin sans", serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul li{
-    font-family: "Bona Nova SC", serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Container */
@@ -58,7 +60,7 @@ ul li{
     display: inline-block;
     padding: 10px 20px;
     margin: 30px 0;
-    background-color: #000000;
+    background-color: #38689e;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -66,9 +68,8 @@ ul li{
 }
 
 .header .btn:hover {
-    background-color: #fff;
-    color: #000;
-    border: 1px dotted red;
+    background-color: #333d52;
+    color: white;
 }
 
 /* Section Titles */
@@ -104,7 +105,13 @@ section h2 {
     padding: 15px;
     background: #f9f9f9;
     border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px #ccc;
     border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+
+.skill:hover{
+    transform: scale(1.03);
 }
 
 /* project section */
